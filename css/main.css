@@ -1,0 +1,35 @@
+/* general styles */
+.body{
+    margin: 0;
+    
+}
+.header{
+    background-color: #000;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.flex{
+    display:flex;
+}
+.container{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#yellow{
+    color: #ecf800;
+
+}
+.banner{
+    text-align: center;
+    background-color: #adadad;
+    padding: 10px 10px;
+    font-family: 'Segoe UI';
+    font-style: oblique;
+}
+.underline{
+    border-bottom: 4px solid #ecf800;
+}
