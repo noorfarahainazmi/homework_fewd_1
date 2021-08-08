@@ -1,35 +1,78 @@
-/* general styles */
+/* this is general style for body */
 .body{
-    margin: 0;
-    
+    width: 0%;
+    margin-right: auto;
+    margin-left: auto;
 }
-.header{
-    background-color: #000;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    justify-content: space-between;
-    align-items: center;
-
-}
+/* this is style for header main css */
 .flex{
-    display:flex;
+   justify-content: space-between;
 }
 .container{
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;    
+    background-color: #000000;
+    border-bottom: 10px solid #ffff00; 
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    display: flex;
 }
-#yellow{
-    color: #ecf800;
-
+.center{
+    display: flex;
+    align-items: center;
+}
+.no-underline{
+    text-decoration: none;
+    color: #ffffff;
+    flex-direction: row;
+}
+#change-font{
+    font-family: Impact;
+}
+#header-color{
+    color: #ffff00;
+    font-family: 'Times New Roman';
 }
 .banner{
-    text-align: center;
-    background-color: #adadad;
-    padding: 10px 10px;
-    font-family: 'Segoe UI';
-    font-style: oblique;
+      background-color: #ababab;
+      padding: 6px 6px;
+      text-align: center;
+      font-family:'Segoe UI';
+      font-style: oblique;
 }
-.underline{
-    border-bottom: 4px solid #ecf800;
+.del{
+    text-decoration: line-through;
+}
+.u{
+    border-bottom: 3px solid #ffff00;
+}
+
+/* this is a content main css */
+.center{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is a footer main css */
+.banner-footer{
+        background-color: #000000;
+        padding: 10px 15px;
+}
+.footer-color{
+    color: #ffffff;
+    font-family: sans-serif;
+
 }
