@@ -84,26 +84,20 @@
     padding: 10px 80px;
     width: 10em;
     height: 5em;
-    font-family: Arial;
+    font-family: 'Impact';
     font-size: 18px;
     text-decoration: none;
 
-
-
 }
-.box button{
+
+.row-block{
     display: flex;
-    align-self: center;
+    flex-direction: row;
+
+
 }
-.sign-up-button{
-    background-color: #808080;
-    color: #000000;
-    padding: 10px 80px;
-    width: 10em;
-    height: 5em;
-    font-family: Arial;
-    font-size: 18px;
-    text-decoration: none;
+.container2{
+    width: fit-content;
 }
 
 
