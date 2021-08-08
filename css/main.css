@@ -65,21 +65,45 @@
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    
-
 }
  
 .box{
-    background-color: #ffffff;
     border: 2px solid;
     padding: 2.5em 2.5em;
     width: 490px;
     height: 250px;
     font-family: 'Calibri';
-}
-#button{
+    background-color: rgba(255, 255, 255, 0.576);
+    color: rgb(0, 0, 0);
     
+}
+.button{
+    background-color: #ffff00;
+    color: #000000;
+    border-bottom: 2px solid #ffa500;
+    padding: 10px 80px;
+    width: 10em;
+    height: 5em;
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
 
+
+
+}
+.box button{
+    display: flex;
+    align-self: center;
+}
+.sign-up-button{
+    background-color: #808080;
+    color: #000000;
+    padding: 10px 80px;
+    width: 10em;
+    height: 5em;
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 
