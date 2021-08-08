@@ -21,6 +21,16 @@
     display: flex;
     align-items: center;
 }
+.each{
+    padding: 0.1px;
+
+}
+.each a{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .no-underline{
     text-decoration: none;
     color: #ffffff;
@@ -33,7 +43,7 @@
     color: #ffff00;
     font-family: 'Times New Roman';
 }
-.banner{
+.words{
       background-color: #ababab;
       padding: 6px 6px;
       text-align: center;
@@ -48,8 +58,28 @@
 }
 
 /* this is a content main css */
-.center{
+.banner{
+    background-image: url("../images/matchmaker.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
     
+
+}
+ 
+.box{
+    background-color: #ffffff;
+    border: 2px solid;
+    padding: 2.5em 2.5em;
+    width: 490px;
+    height: 250px;
+    font-family: 'Calibri';
+}
+#button{
+    
+
 }
 
 
@@ -74,5 +104,6 @@
 .footer-color{
     color: #ffffff;
     font-family: sans-serif;
+    font-size: 15px;
 
 }
